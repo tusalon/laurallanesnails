@@ -1,6 +1,6 @@
 // sw.js - Service Worker para LauraLLanesNails
 
-const CACHE_NAME = 'laurallanesnails-v29';
+const CACHE_NAME = 'laurallanesnails-v47';
 const urlsToCache = [
   '/laurallanesnails/',
   '/laurallanesnails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/laurallanesnails/icons/icon-152x152.png',
   '/laurallanesnails/icons/icon-192x192.png',
   '/laurallanesnails/icons/icon-384x384.png',
-  '/laurallanesnails/icons/icon-512x512.png'
+  '/laurallanesnails/icons/icon-512x512.png',
+  '/laurallanesnails/vendor/react.production.min.js',
+  '/laurallanesnails/vendor/react-dom.production.min.js',
+  '/laurallanesnails/vendor/babel.min.js',
+  '/laurallanesnails/vendor/bcrypt.min.js',
+  '/laurallanesnails/vendor/tailwind-browser.js',
+  '/laurallanesnails/vendor/lucide/lucide.css',
+  '/laurallanesnails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
