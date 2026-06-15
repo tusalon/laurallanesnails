@@ -1,6 +1,6 @@
 // sw.js - Service Worker para LauraLLanesNails
 
-const CACHE_NAME = 'laurallanesnails-v49';
+const CACHE_NAME = 'laurallanesnails-v56';
 const urlsToCache = [
   '/laurallanesnails/',
   '/laurallanesnails/index.html',
